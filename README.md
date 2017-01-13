@@ -11,9 +11,9 @@
 <h3>Completed (and Todo list)</h3>
 <em>
 <ul>
-  <li>Dominos = DONE</li>
+  <li>Dominos = DONE 13.1.2017</li>
   <li>Nike</li>
-  <li>Target</li>
+  <li>Target = DONE 13.1.2017</li>
   <li>Goodwill</li>
 </ul>
 </em>
