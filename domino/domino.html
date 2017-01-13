@@ -2,27 +2,64 @@
 <html>
   <head></head>
     <style>
-    #red{
+     .logo {
+position: fixed;
+top: 15%;
+left: 50%;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+    transform: rotate(45deg);
+
+}
+
+ #red{
       background-color: #e3193b;
-      width: 220px; height: 184px;
-      top: 100px;
+      width: 180px; height: 200px;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+position: absolute; top: 0; left: 0;
+z-index: 1;
     }
+
     #blue{
       background-color: #125E9D;
-      width: 220px; height: 184px;
-       
+      width: 180px; height: 200px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+position: absolute; top: 212px;
+z-index: 1;
     }
+.dots {
+border-radius: 60%;
+background-color: #fff;
+width: 70px;
+height: 70px;
+z-index: 5;
+}
+
+#up-dot {
+position: absolute; top: 35%; left: 30%;
+}
+
+#bt-l-dot {
+position: absolute; top: 50%; left: 14%;
+}
+
+#bt-r-dot {
+position: absolute; top: 15%; left: 52%;
+
+}
   </style>
 
   <body>
     <div class="logo">
-      <div id="blue"></div>
-      <div id="red"></div>
-      <div id="dots">
-        <div id="bt-l-dot"></div>
-        <div id="bt-r-dot"></div>
-        <div id="up-dot"></div>
+      <div id="red">
+       <div class="dots" id="up-dot"></div>
       </div>
-    </div>
+      <div id="blue">
+        <div class="dots" id="bt-l-dot"></div>
+        <div class="dots" id="bt-r-dot"></div>
+      </div>       
+   </div>
   </body>
 </html>
