@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Old Drunk logo</title>
+  </head>
+  <style>
+    .logo {
+ width: 640px; height: 460px;
+ background-color: #000;
+ position: fixed; top: 5%; left: 30%;
+ }
+
+#text {
+ color: #fff;
+ font-size: 16px;
+ font-family: "Courier New";
+ position: absolute; top: 61%; left: 35%;
+}
+
+#head {
+ background-color: #fff;
+ width: 50px; height: 50px;
+ border-radius: 50%;
+ position: absolute; top: 35%; left: 44.2%;
+ z-index: 2;
+}
+
+.ear {
+ z-index: 4;
+ width: 7px; height: 10px; 
+ background-color: #fff;
+}
+
+#l-ear {
+ position: relative; top: 38.5%; left: 43.7%;
+ transform: rotate(-25deg);
+ border-radius: 50% 0 0 0;
+}
+
+#r-ear {
+ position: relative; top: 36.6%; left: 51.5%;
+ transform: rotate(25deg);
+ border-radius: 0 50% 0 0;
+}
+
+#l-eye {
+ background-color: #000;
+ width: 7px; height: 7px;
+ border-radius: 50%;
+ position: relative; top: 28%; left: 28%;
+}
+
+#r-eye {
+ background-color: #000;
+ width: 7px; height: 7px;
+ border-radius: 50%;
+ position: relative; top: 13%; left: 52%;
+}
+
+#nose {
+    width: 12px;
+    height: 4px;
+    background-color: transparent;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: 2px solid #999;
+    border-top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ position: relative; top: 20%; left: 35%;
+ z-index: 3;
+}
+
+#mouth {
+    width: 20px;
+    height: 6px;
+    background-color: transparent;
+    border-radius: 50% / 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 3px solid #000;
+    border-top: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 3;
+ position: relative; top: 28%; left: 28%;
+}
+
+#stomach {
+ background-color: #fff;
+ width: 80px; height: 80px;
+ border-radius: 50%;
+ position: absolute; top:40%; left: 42%;
+ z-index: 1;
+ }
+
+#pants {
+ background-color: #000;
+ width: 70px; height: 35px;
+ border-radius: 0 0 60px 60px;
+ position: absolute; top:49%; left: 6%;
+}
+
+#legs {
+ width:24px; height: 30px;
+ background-color: #fff;
+ position: absolute; top: 56.6%; left: 46.4%;
+ border-radius: 25% 25% 0 0 ;
+}
+
+#leg-gap {
+background-color: #000;
+width: 6px; height: 40px;
+position: absolute; top: -10%; left: 40.5%;
+z-index: 4;
+}
+
+.foot {
+ background-color: #fff;
+ width: 20px; height: 5px;
+}
+
+#l {
+ position: absolute; top: 63.1%; left: 44.65%;
+ border-radius: 80% 0; 
+ transform: rotate(-10deg);
+}
+
+#r {
+  position: absolute; top: 63.15%; left: 48.65%;
+ border-radius: 0 80%;
+ transform: rotate(10deg);
+}
+  </style>
+  <body>
+    <div class="logo">
+        <div id="l-ear" class="ear"></div>
+        <div id="r-ear" class="ear"></div>
+      <div id="head">
+        <div id="l-eye"></div>
+        <div id="r-eye"></div>
+        <div id="nose"></div>
+        <div id="mouth"></div>
+      </div>
+      <div id="stomach">
+        <div id="pants">
+        </div>
+      </div>
+      <div id="legs">
+        <div id="leg-gap"></div>
+      </div>
+      <div id="l" class="foot"></div>
+      <div id="r" class="foot"></div>
+      <div id="text">
+        <h1>OLD DRUNK</h1>
+      </div>
+    </div>
+  </body>
+</html>

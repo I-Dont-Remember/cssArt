@@ -11,9 +11,11 @@
 <h3>Completed (and Todo list)</h3>
 <em>
 <ul>
-  <li>Dominos = DONE 13.1.2017</li>
+  <li>Dominos = DONE Jan 13, 2017</li>
   <li>Nike</li>
-  <li>Target = DONE 13.1.2017</li>
+  <li>Target = DONE Jan 13, 2017</li>
   <li>Goodwill</li>
+  <li>Old Drunk = DONE Jan 19, 2017: Important note! Check for annoying finicky small parts BEFORE starting.  Lesson learned.</li>
+  <li>Horror Films: In Progress</li>
 </ul>
 </em>
